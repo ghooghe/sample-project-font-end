@@ -1,0 +1,36 @@
+{
+  "name": "sample-project-front-end",
+  "version": "1.0.0",
+  "scripts": {
+    "prebuild": "npm install",
+    "build": "gulp"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.1",
+    "systemjs": "0.19.16",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "0.33.3",
+    "express": "4.13.3",
+    "gulp-concat": "2.6.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10",
+    "bootstrap": "3.3.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "1.5.2",
+    "gulp-uglifycss": "1.0.5",
+    "gulp-clean-css": "^2.0.5",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-typescript": "2.11.0",
+    "gulp-concat": "2.6.0",
+    "gulp-dev": "0.3.0",
+    "run-sequence": "1.1.5",
+    "del": "2.2.0",
+    "browser-sync": "2.11.2",
+
+    "concurrently": "^1.0.0",
+    "typescript": "^1.7.5"
+  }
+}
